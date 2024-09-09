@@ -1,7 +1,6 @@
 package run.halo.app.plugin;
 
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 import org.pf4j.Plugin;
 import org.pf4j.PluginWrapper;
 
@@ -13,7 +12,6 @@ import org.pf4j.PluginWrapper;
  * @since 2.0.0
  */
 @Getter
-@Slf4j
 public class BasePlugin extends Plugin {
 
     protected PluginContext context;
